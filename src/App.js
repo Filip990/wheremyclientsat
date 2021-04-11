@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import GlobalStyles from './GlobalStyles';
 import { API_URL } from "./constants";
 
-import Card from "./components/Card/Card";
+import Card from "./Components/Card/Card";
 import { Container, Heading, ErrorMessage } from "./App.styled";
 
 const App = () => {
