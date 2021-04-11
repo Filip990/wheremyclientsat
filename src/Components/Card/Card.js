@@ -5,7 +5,7 @@ import edit from "../../assets/Edit.svg";
 import Modal from "../Modal/Modal";
 import LocationDetails from "../LocationDetails/LocationDetails";
 
-import { CardPiece, AccountName, ActionBtn, ActionIcon } from "./Card.styled";
+import { CardPiece, AccountName, ActionBtn } from "./Card.styled";
 
 const Card = ({ name, id, createdAt, userCount, description }) => {
   const { cardViews, incrementView } = useCardView(id);

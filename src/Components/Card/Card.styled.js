@@ -12,7 +12,7 @@ export const CardPiece = styled.div`
   padding: 16px;
 
   :hover {
-    box-shadow: 2px 0px 13px 3px #866ee6;
+    box-shadow: 2px 0px 13px 3px #99afe0;
   }
 `
 
@@ -32,10 +32,6 @@ export const ActionBtn = styled.button`
   border-radius: 6px;
 
   :hover {
-    background: #c5baf3;
+    background: #ebebeb;
   }
-`
-
-export const ActionIcon = styled.img`
-  max-width: min-content;
 `
