@@ -1,9 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
+  * {
+    box-sizing: border-box;
+  }
+
   *:focus {
     outline: none;
-    box-sizing: border-box;
   }
 
   html,
@@ -17,14 +20,13 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
-  #app {
-    display: flex;
-    width: 100%;
-    height: 100%;
-  }
-
   button,
   a {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    background: transparent;
+    cursor: pointer;
     text-decoration: none;
   }
 `;
