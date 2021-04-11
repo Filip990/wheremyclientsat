@@ -16,7 +16,7 @@ const LocationDetails = ({ createdAt, userCount, views, }) => (
     </Info>
     <Info>
       <Icon src={viewsIcon} alt="views"/>
-      <InfoItem>{views}</InfoItem>
+      <InfoItem>{views} {views !== 1 ? "Views" : "View"} </InfoItem>
     </Info>
   </>
 );

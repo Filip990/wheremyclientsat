@@ -51,6 +51,10 @@ export const CloseIcon = styled.button`
   }
 `;
 
+export const DescriptionHeader = styled.h4`
+  margin-bottom: 8px;
+`
+
 export const Description = styled.div`
   color: #333;
 `;

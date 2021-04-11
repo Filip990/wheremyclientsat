@@ -7,6 +7,7 @@ import {
   ModalContent,
   Title,
   CloseIcon,
+  DescriptionHeader,
   Description,
   CloseButton,
 } from "./Modal.styled";
@@ -20,7 +21,7 @@ const Modal = ({ name, id, createdAt, userCount, views, description, onClose }) 
         <img src={close} alt="close"/>
       </CloseIcon>
       <LocationDetails createdAt={createdAt} userCount={userCount} views={views} />
-        <h4>Description</h4>
+        <DescriptionHeader>Description</DescriptionHeader>
       <Description>
        {description}
         </Description>
